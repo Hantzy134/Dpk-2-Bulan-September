@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Biodata</title>
+</head>
+<body>
+
+    <form>
+        <h3>Biodata</h3>
+
+        <p>Masukkan text</p>
+        <label for="nama_depan">Nama Depan: </label>
+        <input type="text" id="nama_depan" name="nama_depan"><br><br>
+
+        <label for="nama_keluarga">Nama Keluarga: </label>
+        <input type="text" id="nama_keluarga" name="nama_keluarga"><br><br>
+
+        <p>Hobby saya:</p>
+        <input type="checkbox" id="membaca" name="hobby" value="Membaca">
+        <label for="membaca">Membaca</label><br>
+
+        <input type="checkbox" id="menyanyi" name="hobby" value="Menyanyi">
+        <label for="menyanyi">Menyanyi</label><br>
+
+        <input type="checkbox" id="browsing" name="hobby" value="Browsing">
+        <label for="browsing">Browsing</label><br>
+
+        <input type="checkbox" id="chatting" name="hobby" value="Chatting">
+        <label for="chatting">Chatting</label><br>
+
+        <input type="checkbox" id="lain-lain" name="hobby" value="Lain-lain">
+        <label for="lain-lain">Lain-lain</label><br><br>
+
+        <p>Jenis Kelamin:</p>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" checked>
+        <label for="laki">Laki-laki</label><br>
+
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <p>Usia:</p>
+        <input type="radio" id="dewasa" name="usia" value="Dewasa" checked>
+        <label for="dewasa">Dewasa</label><br>
+
+        <input type="radio" id="anak" name="usia" value="Anak-anak">
+        <label for="anak">Anak-anak</label><br><br>
+
+        <hr>
+
+        <p>Olahraga yang anda suka:</p>
+        <select name="olahraga">
+            <option value="Sepakbola">Sepakbola</option>
+            <option value="Bulu Tangkis">Bulu Tangkis</option>
+            <option value="Basket">Basket</option>
+            <option value="Renang">Renang</option>
+        </select><br><br>
+
+        <label for="komentar">Komentar : </label>
+        <textarea id="komentar" name="komentar" rows="6" cols="35">Tulis pesan anda disini</textarea><br><br>
+
+        <input type="button" value="OK">
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
